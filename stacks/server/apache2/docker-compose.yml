@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+
+  webserver:
+    image: httpd:2
+    #restart: always
+    ports:
+      - "${WEB_PORT80}:80"
+    command: /bin/sh -c "exec httpd -DFOREGROUND"
