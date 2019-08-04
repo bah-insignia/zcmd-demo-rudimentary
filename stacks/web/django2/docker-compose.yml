@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+
+  webserver:
+    image: local/django2
+    ports:
+      - "$WEB_PORT8000:8000"
+    restart: always
+
+  postgres:
+    image: postgres:10
+    environment:
+      POSTGRES_PASSWORD: example
+    restart: always

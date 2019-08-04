@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+
+  bare-os:
+    image: ubuntu:18.04
+    restart: always
+    command: tail -f /dev/null
