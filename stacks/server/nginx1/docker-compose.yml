@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+
+  webserver:
+    image: nginx:1
+    #restart: always
+    ports:
+      - "${WEB_PORT80}:80"
+    command: bin/bash -c "exec nginx -g 'daemon off;'"
+    #command: [nginx-debug, '-g', 'daemon off;']
