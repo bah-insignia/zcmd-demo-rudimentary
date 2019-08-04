@@ -35,7 +35,7 @@ Easy place to start playing around with Docker Compose ideas.  The existing __do
 # Port Conflicts
 In general all the demo containers use port __8080__ so you will get port conflict error messages if you try to run more than one at the same time.  Ways around this?  
 
-**Option 1**: Run one machine or stack demo at a time.  Close all existing containers with this command before starting a new machine or stack. One easy way to kill all running containers ...
+**Option 1**: Run one machine or stack demo at a time.  Kill all conflicting containers before starting a new machine or stack. One easy way to kill all running containers ...
 
 > zcmd kac
 
