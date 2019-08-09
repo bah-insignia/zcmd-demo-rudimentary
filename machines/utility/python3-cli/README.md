@@ -16,7 +16,7 @@ Navigate around in the terminal and run some python scripts.
 
 * zcmd run-ct
 
-Print the installed PHP version
+Print the installed PYTHON version
 * python --version
 
 Open an interactive PYTHON shell
