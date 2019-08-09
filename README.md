@@ -15,6 +15,10 @@ bare-os
 -------
 Demonstration items under this folder are bare operating system examples.  Useful containters for testing commands using a terminal window.
 
+utility
+-------
+Demonstration items under this folder are simple utility service examples.  Useful as plumbing to do other things.
+
 server
 ------
 Demonstration items under this folder are bare server setups.  Useful containers for easily poking around and learning about those technologies.
