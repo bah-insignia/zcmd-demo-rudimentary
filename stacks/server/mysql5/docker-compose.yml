@@ -1,7 +1,7 @@
 #
 # Example MySQL v5 Stack
 #
-# Updated 20190908.1
+# Updated 20190908.2
 
 version: "3.5"
 
@@ -10,13 +10,18 @@ services:
   db:
     image: mysql:5
     restart: always
+    command: --default-authentication-plugin=mysql_native_password
     environment:
-        MYSQL_DATABASE: demo_db
+        MYSQL_DATABASE: demo_dbv5
         MYSQL_ROOT_PASSWORD: example
         MYSQL_USER: demouser
         MYSQL_PASSWORD: example
     networks:
       - admin_webnet
+    volumes:
+      - type: volume
+        target: /var/lib/mysql
+        source: data_mysql5_zcmd_demo 
 
   tool_phpmyadmin: 
     image: phpmyadmin/phpmyadmin:latest
@@ -31,4 +36,7 @@ services:
 networks:
   admin_webnet:
     external: true
+
+volumes:
+  data_mysql5_zcmd_demo:    
 
