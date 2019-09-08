@@ -22,4 +22,4 @@ The port number is set in the __stack.env__ and pushed into the __docker-compose
 # Interesting Links
 * https://docs.docker.com/samples/library/mysql/
 * https://dev.mysql.com/doc/
-
+* https://hub.docker.com/r/phpmyadmin/phpmyadmin/
