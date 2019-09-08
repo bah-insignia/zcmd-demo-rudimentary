@@ -1,6 +1,6 @@
 # About
 
-This stack has MySQL v5 and a management tool to control it from your browser.
+This stack has MySQL v8 and a management tool to control it from your browser.
 
 # Try It
 
