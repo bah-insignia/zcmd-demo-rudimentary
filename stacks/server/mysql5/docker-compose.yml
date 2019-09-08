@@ -1,7 +1,7 @@
 #
-# Example MySQL5 Stack
+# Example MySQL v5 Stack
 #
-# Updated 20190907.1
+# Updated 20190908.1
 
 version: "3.5"
 
