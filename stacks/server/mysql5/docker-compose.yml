@@ -1,7 +1,7 @@
 #
 # Example MySQL v5 Stack
 #
-# Updated 20190908.2
+# Updated 20190908.3
 
 version: "3.5"
 
@@ -21,7 +21,7 @@ services:
     volumes:
       - type: volume
         target: /var/lib/mysql
-        source: data_mysql5_zcmd_demo 
+        source: data_db 
 
   tool_phpmyadmin: 
     image: phpmyadmin/phpmyadmin:latest
@@ -38,5 +38,6 @@ networks:
     external: true
 
 volumes:
-  data_mysql5_zcmd_demo:    
+  data_db:
+    name: db_mysql5_zcmd_demo  
 
