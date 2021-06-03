@@ -1,6 +1,8 @@
 # Description
 Machine folder context of the popular NODE application server.
 
+If you want to change the port, update [app.js](./custom/app/app.js) and [machine.env](./machine.env) and then build image.
+
 # Command Tips
 Build your image locally
 * zcmd build
