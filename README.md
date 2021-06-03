@@ -6,6 +6,14 @@ This repo contains a collection of __machines__ and __stacks__ that are ready fo
 # Usage
 Clone this git repo and then navigate into interesting folders to build Docker containers, ZCMD Stacks, and play around and explore what you can do with them.  
 
+*OR EVEN EASIER...*
+
+Simply use the "quickstart" command from the `zcmd` console utility like this ...
+
+* zcmd quickstart
+
+That command will prompt you to install any machine or stack from this repo simply by picking from a list.
+
 # Demo Rudimentary?
 What's a good word that describes primitive examples?  [Rudimentary](https://www.merriam-webster.com/dictionary/rudimentary) might be that word.  This repo contains primitive examples of interesting things.
 
