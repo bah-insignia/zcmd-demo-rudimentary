@@ -2,7 +2,11 @@
 Machine folder context of the popular REACT web application framework.
 This simple example application is served using the Nodejs Express server.
 
-If you want to change the port, update [app.js](./custom/app/app.js) and [machine.env](./machine.env) and then build image.
+The react client is served from app/client folder and proxies requests to the Express server launched by server.js.
+
+Internally the client is at port 3000 and the express server is at port 5000. 
+
+External to the running docker container, you access the client at port 80.
 
 # Command Tips
 Build your image locally

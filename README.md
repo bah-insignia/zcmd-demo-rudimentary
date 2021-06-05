@@ -23,17 +23,26 @@ bare-os
 -------
 Demonstration items under this folder are bare operating system examples.  Useful containters for testing commands using a terminal window.
 
+    alpine, centos, ubuntu
+
 utility
 -------
 Demonstration items under this folder are simple utility service examples.  Useful as plumbing to do other things.
+
+    php, python
 
 server
 ------
 Demonstration items under this folder are bare server setups.  Useful containers for easily poking around and learning about those technologies.
 
+    apache, nestjs, nginx, node
+
 webapp
 ------
 Demonstration items under this folder are primitive web application examples of popular and powerful web application frameworks.  The demos are generally at the setup stage of the application framework.
+
+    angular, react, drupal, django, joomla, laravel, wordpress
+
 
 # Things To Do
 Use these machines and stacks to learn more about other operating systems and applications.  Most folders have some helpful tips and instructions to get you started.
